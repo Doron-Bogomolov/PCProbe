@@ -1,10 +1,10 @@
 <#
-    Script Name: PCProbe v0.0.1.ps1
+    Script Name: PCProbe v0.0.2.ps1
     Author: Doron Bogomolov
-    Version: 0.0.1
+    Version: 0.0.2
     Purpose: A tool to collect system information as described.
     Date created: 20.08.2023
-	Last update: 26.08.2023
+    Last update: 26.09.2023
 #>
 
 #============# Defining Variables #============#
