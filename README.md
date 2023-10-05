@@ -1,7 +1,7 @@
 # PCProbe - PowerShell-based System Diagnostics and Network Admin Tool
 
 ## Version
-0.0.1
+0.0.2
 
 ## Date Created
 24.09.2023
@@ -22,6 +22,14 @@ PCProbe is a comprehensive tool designed to perform a wide range of system diagn
 4. CLI-based for maximum compatibility.
 5. In-house use, with a focus on manual data transfer and minimal security risks.
 
+## Changelog
+### Version 0.0.2
+- Added the `Set-StealthMode` function to modify the 'StealthMode' value in XML configuration files.
+- Improved User Interface for easier navigation.
+
+### Version 0.0.1
+- Initial release with basic functionalities.
+
 ## Functions Implemented
 - `Test-FileExists`: Checks if a given file path exists.
 - `Test-Extension`: Validates the file extension of a given file.
@@ -39,7 +47,6 @@ PCProbe is a comprehensive tool designed to perform a wide range of system diagn
 The script is intended for in-house use only. Data pulled will either stay in the CLI or be exported to a CSV/txt file. The code will undergo a security review by a senior developer.
 
 ## How to Use
-1. Clone the repository.
+1. Clone the repository from [PCProbe GitHub Repository](https://github.com/Doron-Bogomolov/PCProbe).
 2. Navigate to the directory where the script is located.
 3. Run the PowerShell script with administrative privileges.
-
